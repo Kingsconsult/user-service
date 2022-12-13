@@ -17,6 +17,11 @@ public class Utils {
 		return generatedRandomString(length);
 	}
 	
+	public String generatedAddressId(int length) 
+	{
+		return generatedRandomString(length);
+	}	
+	
 	public String generatedRandomString(int length)
 	{
 		StringBuilder returnValue = new StringBuilder(length);

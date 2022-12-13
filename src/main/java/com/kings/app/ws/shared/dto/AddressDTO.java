@@ -4,8 +4,9 @@ import java.io.Serializable;
 
 public class AddressDTO implements Serializable {
 
-//    private static final long serialVersionUID = 5462223600L;
+    private static final long serialVersionUID = 5462223600L;
     private long id;
+    private String addressId;
     private String city;
     private String country;
     private String streetName;
@@ -22,7 +23,15 @@ public class AddressDTO implements Serializable {
         this.id = id;
     }
 
-    public String getCity() {
+    public String getAddressId() {
+		return addressId;
+	}
+
+	public void setAddressId(String addressId) {
+		this.addressId = addressId;
+	}
+
+	public String getCity() {
         return city;
     }
 

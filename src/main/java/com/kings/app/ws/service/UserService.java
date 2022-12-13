@@ -2,7 +2,7 @@ package com.kings.app.ws.service;
 
 import java.util.List;
 
-import org.springframework.security.core.userdetails.User;
+//import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
 import com.kings.app.ws.shared.dto.UserDto;
